@@ -3,7 +3,7 @@ class TodosController < ApplicationController
 
   def index
     @todos = Todo.all
-    render status: 200, json: { todos: @todos }
+    # render status: 200, json: { todos: @todos }
   end
 
   def create

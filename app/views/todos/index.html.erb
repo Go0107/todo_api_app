@@ -1,2 +1,17 @@
-<h1>Todos#index</h1>
-<p>Find me in app/views/todos/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TODO</title>
+  <%= stylesheet_link_tag 'styles' %>
+</head>
+
+<body>
+  <h1>TODO</h1>
+  <input id="new-todo" type="text" placeholder="新しいTODO">
+  <button onclick="addTodo()">追加する</button>
+  <ul id="todo-list"></ul>
+  <script src="script.js"></script>
+</body>
+
+</html>
